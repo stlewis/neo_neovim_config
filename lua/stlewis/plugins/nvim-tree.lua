@@ -1,0 +1,30 @@
+return {
+  "nvim-tree/nvim-tree.lua",
+  dependencies = "nvim-tree/nvim-web-devicons",
+  config = function()
+    local nvimtree = require("nvim-tree")
+
+    nvimtree.setup({
+      view = {
+        width = 35,
+        relativenumber = true,
+        side = 'right'
+      },
+
+      renderer = {
+        indent_markers = {
+          enable = true
+        },
+      },
+
+      git = {
+        ignore = false
+      }
+    })
+
+    -- Set keymaps
+    local keymap = vim.keymap
+    keymap.set('n', '<F2>', '<cmd>NvimTreeFindFileToggle<CR>', { desc = "Toggle file explorer" })
+
+  end
+}
