@@ -2,13 +2,13 @@
 vim.api.nvim_create_user_command("RunNearestSpec", function()
   vim.cmd("wa")
   require("neotest").run.run()
-  require("neotest").output_panel.open()
+  require("neotest").output.open()
 end, {})
 
 vim.api.nvim_create_user_command("RunFileSpec", function()
   vim.cmd("wa")
   require("neotest").run.run(vim.fn.expand("%"))
-  require("neotest").output_panel.open()
+  require("neotest").output.open()
 end, {})
 
 -- Keymaps
