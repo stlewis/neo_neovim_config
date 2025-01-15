@@ -10,7 +10,7 @@ return {
       callback = function()
         vim.cmd("PencilSoft")
         vim.cmd("setlocal spell")
-        vim.cmnd("setlocal nocursorline")
+        vim.cmd("setlocal nocursorline")
       end,
     })  
   end,
