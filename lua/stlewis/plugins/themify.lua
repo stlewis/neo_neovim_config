@@ -5,5 +5,6 @@ return {
   config = {
     "rafi/awesome-vim-colorschemes",
     "folke/tokyonight.nvim",
+    "preservim/vim-colors-pencil"
   }
 }
