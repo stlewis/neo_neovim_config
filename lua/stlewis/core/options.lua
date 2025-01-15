@@ -51,3 +51,4 @@ opt.undofile = true
 
 -- Misc
 opt.formatoptions:remove("o") -- Don't continue comments when hitting 'o' or 'O'
+opt.spellsuggest = best,10
