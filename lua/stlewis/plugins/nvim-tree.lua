@@ -24,7 +24,7 @@ return {
 
     -- Set keymaps
     local keymap = vim.keymap
-    keymap.set('n', '<F2>', '<cmd>NvimTreeFindFileToggle<CR>', { desc = "Toggle file explorer" })
+    keymap.set('n', '<F2>', '<cmd>NvimTreeToggle<CR>', { desc = "Toggle file explorer" })
 
   end
 }
