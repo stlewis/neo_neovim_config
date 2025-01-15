@@ -9,5 +9,12 @@ return {
       typescriptreact = { "eslint" },
       ruby = { "rubocop", "ruby" }
     }
+
+    g.ale_fixers = {
+      javascript = { "eslint" },
+      typescript = { "eslint" },
+      typescriptreact = { "eslint" },
+      ruby = { "rubocop" }
+    }
   end,
 }
