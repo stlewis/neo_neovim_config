@@ -11,6 +11,7 @@ return {
         vim.cmd("PencilSoft")
         vim.cmd("setlocal spell")
         vim.cmd("setlocal nocursorline")
+        require("cmp").setup.buffer({ enabled = false })
       end,
     })  
   end,
