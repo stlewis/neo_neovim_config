@@ -31,6 +31,7 @@ return {
         "rubocop",
         "jsonls",
         "cssls",
+        "rust_analyzer",
       }
     })
 
@@ -39,6 +40,7 @@ return {
         "prettier",
         "rubocop",
         "eslint_d",
+        "trivy"
       }
     })
   end,
