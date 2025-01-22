@@ -13,6 +13,10 @@ opt.shiftwidth = 2
 opt.expandtab = true
 opt.autoindent = true
 
+-- Code Folding
+opt.foldmethod = 'expr'
+opt.foldexpr = 'nvim_treesitter#foldexpr()'
+
 opt.wrap = false
 
 -- Search Stuff
