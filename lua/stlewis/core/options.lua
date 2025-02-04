@@ -16,6 +16,7 @@ opt.autoindent = true
 -- Code Folding
 opt.foldmethod = 'expr'
 opt.foldexpr = 'nvim_treesitter#foldexpr()'
+opt.foldlevel = 99
 
 opt.wrap = false
 
