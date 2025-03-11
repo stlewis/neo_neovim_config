@@ -35,3 +35,6 @@ keymap.set('n', '/<CR>', ':let @/=""<CR>', {noremap = true}) -- Clear search hig
 -- Continuous block tabbing
 keymap.set('v', '>', '>gv', {})
 keymap.set('v', '<', '<gv', {})
+
+-- ALE Fixing
+keymap.set('n', '<leader>f', ':ALEFix<CR>', {})

@@ -16,11 +16,11 @@ return {
         markdown = { "prettier" },
         ruby = { "rubocop" },
       },
-      format_on_save = {
-        lsp_fallback = true,
-        async = false,
-        timeout_ms = 2500,
-      }
+      -- format_on_save = {
+      --   lsp_fallback = true,
+      --   async = false,
+      --   timeout_ms = 2500,
+      -- }
     })
   end,
 }
