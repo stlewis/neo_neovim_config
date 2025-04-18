@@ -16,5 +16,7 @@ return {
       typescriptreact = { "eslint" },
       ruby = { "rubocop" }
     }
+    -- Only show warnings for the line you're on
+    g.ale_virtualtext_cursor = "current"
   end,
 }
